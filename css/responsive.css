@@ -1,0 +1,116 @@
+@media (max-width:1000px){
+    .header_inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .header_list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .section_one_description_wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .product{
+        display: flex;
+        flex-direction: column;
+    }
+    .product_two_wrap{
+        display: flex;
+        flex-direction: column;
+    }
+    .rings_wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .product_list_row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .product_jeverly{
+        margin: 20px;
+    }
+    .conteiner_content{
+        display: flex;
+        flex-direction: column;
+    }
+    .conteiner_catalog_specification{
+        display: flex;
+        flex-direction: column;
+    }
+    .specification{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .production{
+        display: flex;
+        flex-direction: column;
+    }
+    .three_product_custom_conteiner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .product_custom_text{
+        padding: 5% 0;
+    }
+
+}
+@media (max-width:800px){
+    .footer_inner{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .product_custom_title{
+        font-size: 30px;
+        max-width: 60%;
+        line-height: 40px;
+        margin: 30px 0px 0px 45px;
+    }
+    .one_text_content{
+        font-size: 220px;
+        line-height: 230px;
+    }
+    .catalog_conteiner{
+        display: flex;
+        flex-direction: column;
+    }
+    .catalog_element img{
+        width: 100%;
+        height: 445px;
+        object-fit: cover;
+    }
+    .subscribe{
+        display: flex;
+        flex-direction: column;
+    }
+    .conteiner_help_section{
+        padding: 5% 0px;
+    }
+    .subscribe_input{
+        margin-bottom: 0px;
+    }
+
+    .conteiner{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .conteiner_form{
+        padding: 0px;
+    }
+    .title_contacts::first-letter{
+        font-size: 30px;
+        color: #dd4026;
+    }
+}
