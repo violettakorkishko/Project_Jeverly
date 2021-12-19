@@ -18,7 +18,7 @@ body{
 }
 .header{
     width: 100%;
-    background: url(/images/Images_9.jpg) 
+    background: url("../images/Images_9.jpg") 
     center no-repeat;
     background-size: cover;
     top: 0;
@@ -82,6 +82,8 @@ body{
 }
 .conteiner_form{
     padding: 50px 5px;
+    max-width: 1700px;
+    margin: 0 auto;
 }
 .contacts_form_title{
     font-family: 'Crimson Text';
